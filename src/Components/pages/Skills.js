@@ -1,5 +1,5 @@
 import React from 'react'
-import { Segment } from 'semantic-ui-react'
+import { Segment, Grid } from 'semantic-ui-react'
 import { Canvas } from 'react-canvas-js';
 
 function Skills(){
@@ -81,29 +81,12 @@ function Skills(){
                     <Segment>
                         <h1 style={{fontSize: 40}}>Skills and Tools</h1>
                         <h3>My arsenal of tools and skill sets</h3>
-                        {/* <p>ljdfnkdjndjkvndsjkvsdjkvdsnvKMDSL;VMSDVL;SDMVL;SDvmsd;lvMSdvl;sdmVSdlv;msdlssddsvdsvvsdvdsvdsvsddsv</p> */}
+                        
                     </Segment>
                 </div>
             </div>
         </div>
     )
 }
-
-{/* <div className="container">
-            <div className="box"><Canvas className="canvas" options={sample1} /></div>
-            <div className="box stack-top">
-                <div className="home-info">
-                    <div>
-                    <Image className="home-image" src="https://avatars3.githubusercontent.com/u/33858127?s=400&u=86b0afa70fbb45a4d176637abe08d13ef20c610a&v=4" size="medium" circular/>
-                    <br /><br /><br />
-                    <TypeIt>
-                        <strong style={{fontWeight: 100000, fontSize: "55px", fontFamily: "Montserrat,Helvetica,sans-serif"}}>Hi, I'm Uzoma Ariguzo</strong>
-                        <br /><br />
-                        <p style={{fontSize: "40px", fontFamily: "Montserrat,Helvetica,sans-serif"}}>FullStack Developer, UI/UX FrontEnd Engineer</p>
-                    </TypeIt>
-                    </div>
-                </div>
-            </div>
-        </div> */}
 
 export default Skills

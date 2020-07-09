@@ -108,6 +108,10 @@
   background: none;
 }
 
+/* Grid */
+/* .grid-two
+} */
+
 .content-header {
   height: 65px;
   line-height: 65px;
@@ -194,14 +198,23 @@
   width: 750px;
   height: 770px;
 }
-.skills-logos{
-  width: 100px;
-  /* height: ; */
-  /* position: absolute; */
-  /* margin: 20px; */
-}
 .skills-container {
   margin-right: 1000px;
   margin-top: 50px;
   margin-left: 100px;
 }
+
+
+
+
+
+/* 
+.skills-left-container{
+  margin-left: 100px;
+}
+
+.skills-right-container{
+  margin-left: 239px;
+  height: 500px;
+  display: flex;
+} */

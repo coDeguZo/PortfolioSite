@@ -18,36 +18,43 @@ const Nav = (props) => {
             <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><Link to="/"></Link></li>
+                <br />
                 {homeHover === false ?
                     <li onMouseEnter={() => setHomeHover(true)}><Link to='/'><Icon name="home" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setHomeHover(false)}><Link to='/'>Home</Link></li>
                 }
+                <br />
                 { aboutHover === false ?
                     <li onMouseEnter={() => setAboutHover(true)}><Link to='/about'><Icon name="user" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setAboutHover(false)}><Link to="/about">About</Link></li>
                 }
+                <br />
                 { projectsHover === false ?
                     <li onMouseOver={() => setProjectsHover(true)}><Link to="/projects"><Icon name="computer" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setProjectsHover(false)}><Link to="/projects">Projects</Link></li>
                 }
+                <br />
                 {  skillsHover === false ?
                     <li onMouseEnter={() => setSkillsHover(true)}><Link to='/skills'><Icon name="code" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setSkillsHover(false)}><Link to='/skills'>Skills</Link></li>
                 }
+                <br />
                 {   blogHover === false ?
                     <li onMouseEnter={() => setBlogHover(true)}><Link to="/blog"><Icon name="blogger b" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setBlogHover(false)}><Link to="/blog">Blog</Link></li>
                 }
+                <br />
                 {  resumeHover ===  false ?
                     <li onMouseEnter={() => setResumeHover(true)}><Link to="/resume"><Icon name="file code outline" size="big"/></Link></li>
                     :
                     <li onMouseLeave={() => setResumeHover(false)}><Link to="/resume">Resume</Link></li>
                 }
+                <br />
                 {  contactHover === false ?
                     <li onMouseEnter={() => setContactHover(true)}><Link to="/contact"><Icon name="mail" size="big" color="blue"/></Link></li>
                     :
